@@ -18,15 +18,15 @@ This project demonstrates how biased datasets can influence AI decisions and how
 - ⚙️ Train ML model (Random Forest)
 - 🔍 Detect bias using fairness metrics
 - 📈 Visualize:
-- - Gender distribution
+  - Gender distribution
   - Selection rate
   - Feature importance
 - 📄 Generate downloadable PDF report
 - 🌐 Multi-domain support:
-- - Job Hiring
-- - Education
-Medical Care
-Bank Loan
+  - Job Hiring
+  - Education
+  - Medical Care
+  - Bank Loan
 
 ---
 
@@ -46,27 +46,27 @@ Bank Loan
 
 ## ⚙️ Technologies Used
 
-Python
-Streamlit
-Pandas
-NumPy
-Scikit-learn
-Fairlearn
-Matplotlib
-ReportLab
+- Python
+- Streamlit
+- Pandas
+- NumPy
+- Scikit-learn
+- Fairlearn
+- Matplotlib
+- ReportLab
 
 ---
 
 ## 📊 How It Works
 
-Upload dataset (or use generated biased dataset)
-Preprocess data (encoding categorical features)
-Train model using Random Forest
-Evaluate:
-Accuracy
-Bias score (Demographic Parity)
-Visualize results
-Generate fairness report (PDF)
+- Upload dataset (or use generated biased dataset)
+- Preprocess data (encoding categorical features)
+- Train model using Random Forest
+- Evaluate:
+  - Accuracy
+  - Bias score (Demographic Parity)
+  - Visualize results
+  - Generate fairness report (PDF)
 
 ---
 
@@ -74,11 +74,11 @@ Generate fairness report (PDF)
 
 Demographic Parity Difference
 
-Measures difference in selection rates across groups
-Ideal value: 0 (fair)
-Threshold:
-< 0.1 → Fair
-> 0.1 → Bias detected
+- Measures difference in selection rates across groups
+- Ideal value: 0 (fair)
+- Threshold:
+  - < 0.1 → Fair
+  - > 0.1 → Bias detected
 
 ---
 
@@ -86,11 +86,11 @@ Threshold:
 
 The dataset includes:
 
-Gender
-Experience
-Skill Score
-Interview Score
-Selection Outcome
+- Gender
+- Experience
+- Skill Score
+- Interview Score
+- Selection Outcome
 
 Bias is intentionally introduced to simulate real-world unfair decisions.
 
@@ -126,28 +126,28 @@ streamlit run app.py
 
 ## 🖥️ UI Workflow
 
-📊 Data → Upload dataset
-⚙️ Configure → Train model
-🔍 Analyse → Check bias & metrics
-📈 Result → View fairness outcome
-📄 Report → Download PDF
+- 📊 Data → Upload dataset
+- ⚙️ Configure → Train model
+- 🔍 Analyse → Check bias & metrics
+- 📈 Result → View fairness outcome
+- 📄 Report → Download PDF
 
 ---
 
 ## 💡 Future Improvements
 
-Bias mitigation techniques (Reweighing / Fair models)
-Explainable AI (SHAP / LIME)
-Real-world datasets integration
-API deployment
-User authentication
+- Bias mitigation techniques (Reweighing / Fair models)
+- Explainable AI (SHAP / LIME)
+- Real-world datasets integration
+- API deployment
+- User authentication
 
 ---
 
 ## 🏆 Use Cases
 
-Fair hiring systems
-Ethical AI auditing
-Banking loan approvals
-Healthcare decision support
-Education admissions
+- Fair hiring systems
+- Ethical AI auditing
+- Banking loan approvals
+- Healthcare decision support
+- Education admissions
