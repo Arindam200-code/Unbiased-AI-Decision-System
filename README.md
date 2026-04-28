@@ -14,17 +14,17 @@ This project demonstrates how biased datasets can influence AI decisions and how
 
 ## 🎯 Features
 
-📊 Upload and analyze datasets (CSV)
-⚙️ Train ML model (Random Forest)
-🔍 Detect bias using fairness metrics
-📈 Visualize:
-Gender distribution
-Selection rate
-Feature importance
-📄 Generate downloadable PDF report
-🌐 Multi-domain support:
-Job Hiring
-Education
+- 📊 Upload and analyze datasets (CSV)
+- ⚙️ Train ML model (Random Forest)
+- 🔍 Detect bias using fairness metrics
+- 📈 Visualize:
+- - Gender distribution
+  - Selection rate
+  - Feature importance
+- 📄 Generate downloadable PDF report
+- 🌐 Multi-domain support:
+- - Job Hiring
+- - Education
 Medical Care
 Bank Loan
 
