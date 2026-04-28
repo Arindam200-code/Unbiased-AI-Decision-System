@@ -82,4 +82,72 @@ Threshold:
 
 ---
 
-## 
+## 🧪 Sample Dataset
+
+The dataset includes:
+
+Gender
+Experience
+Skill Score
+Interview Score
+Selection Outcome
+
+Bias is intentionally introduced to simulate real-world unfair decisions.
+
+---
+
+## ▶️ Installation & Setup
+
+1. Clone Repository
+
+```
+git clone https://github.com/your-username/unbiased-ai-system.git
+cd unbiased-ai-system
+```
+2. Install Dependencies
+
+```
+pip install -r requirements.txt
+```
+
+Or manually:
+
+```
+pip install streamlit pandas numpy scikit-learn fairlearn matplotlib reportlab
+```
+
+3. Run Application
+
+```
+streamlit run app.py
+```
+
+---
+
+## 🖥️ UI Workflow
+
+📊 Data → Upload dataset
+⚙️ Configure → Train model
+🔍 Analyse → Check bias & metrics
+📈 Result → View fairness outcome
+📄 Report → Download PDF
+
+---
+
+## 💡 Future Improvements
+
+Bias mitigation techniques (Reweighing / Fair models)
+Explainable AI (SHAP / LIME)
+Real-world datasets integration
+API deployment
+User authentication
+
+---
+
+## 🏆 Use Cases
+
+Fair hiring systems
+Ethical AI auditing
+Banking loan approvals
+Healthcare decision support
+Education admissions
