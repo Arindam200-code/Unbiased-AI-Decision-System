@@ -13,8 +13,8 @@ from reportlab.lib.styles import getSampleStyleSheet
 # =========================
 # CONFIG
 # =========================
-st.set_page_config(page_title="AI Fairness System", layout="wide")
-st.title("⚖️ AI Fair Decision System")
+st.set_page_config(page_title="Unbiased AI System", layout="wide")
+st.title("⚖️ Unbiased AI Decision System")
 
 domain = st.selectbox(
     "Select Domain",
