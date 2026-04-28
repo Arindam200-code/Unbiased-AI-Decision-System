@@ -5,7 +5,11 @@ from sklearn.metrics import accuracy_score, classification_report
 def train_model(X, y):
 
     X_train, X_test, y_train, y_test = train_test_split(
-        X, y, test_size=0.2, random_state=42
+        X,
+        y,
+        test_size=0.2,
+        random_state=42,
+        stratify=y
     )
 
     model = RandomForestClassifier(
@@ -18,6 +22,7 @@ def train_model(X, y):
     predictions = model.predict(X_test)
 
     accuracy = accuracy_score(y_test, predictions)
-    report = classification_report(y_test, predictions)
 
-    return model, predictions, y_test, X_test, accuracy, report
+    report = classification_report(y_test, predictions, output_dict=True)
+
+    return model, X_test, y_test, predictions, accuracy, report

@@ -2,12 +2,15 @@ import pandas as pd
 
 def preprocess_data(df):
 
-    gender = df['gender']
-
-    # safe encoding
     df_encoded = pd.get_dummies(df, columns=['gender'], drop_first=True)
 
-    X = df_encoded[['gender_Male', 'experience', 'skill_score', 'interview_score']]
+    features = ['experience', 'skill_score', 'interview_score', 'gender_Male']
+
+    for col in features:
+        if col not in df_encoded.columns:
+            df_encoded[col] = 0
+
+    X = df_encoded[features]
     y = df_encoded['selected']
 
-    return X, y, gender
+    return X, y
