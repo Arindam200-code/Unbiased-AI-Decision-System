@@ -78,7 +78,7 @@ Demographic Parity Difference
 - Ideal value: 0 (fair)
 - Threshold:
   - < 0.1 → Fair
-  - > 0.1 → Bias detected
+  -  > 0.1 → Bias detected
 
 ---
 
